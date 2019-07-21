@@ -6,3 +6,6 @@ As proof of concept, the script included takes a grayscale density map (named He
 Hypothetically, you could use this technique to bake various directional shadowmaps into a volumetric texture so that you can shade the volume without performing costly realtime raymarching.
 
 This technique is inspired by raymarching and voxel-based global illumination techniques, specifically in the context of volumes such as fog, smoke or clouds.
+
+Here's some examples:
+![BIRB](Examples/Impedence_Birb.jpg)
