@@ -29,7 +29,7 @@ stepLossRate = 1
 materialDensity = .75
 rSteps = 150
 
-# START TIMING
+# START TIMING (for reference)
 import time
 startTime = time.time()
 
