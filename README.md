@@ -1,6 +1,6 @@
 # Impedence Marching
 ### A technique for baking lit volumes
-Impedence Marching is a technique for baking sparsely-directional shadow information for translucent volumetric textures.
+Impedence Marching is a technique for baking sparsely-directional shadow information for translucent volumes.
 
 As proof of concept, the script included takes a grayscale density map (named Heightmap.png, but this can be changed) and emulates directional light passing through the image as if it were a volume of varying density. It does this 4 times (top -> bottom, right -> left, bottom -> top, left -> right) and stores the resulting "impedence maps" as 4 grayscale images and one channel-packed RGBA image.
 
